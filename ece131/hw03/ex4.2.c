@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+  int n;
+  printf(" n    n-squared \n");
+  printf("--    --------- \n");
+  for(n = 1; n <=10; n++){
+    if(n == 10) printf(" %d    %8d\n", n , n*n);
+    else printf(" %d    %9d\n", n, n*n);
+   
+  }
+
+  return 0;
+}
